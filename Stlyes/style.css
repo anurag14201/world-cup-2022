@@ -112,3 +112,20 @@ section {
     width: 560px;
     height: 425px;
 }
+
+footer {}
+
+footer img {
+    text-align: center;
+    width: 483px;
+    height: 110px;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 20px;
+    height: 5px;
+
+}
