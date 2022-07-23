@@ -4,13 +4,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-nav>ul>li a {
+nav>div>ul>li a {
     text-decoration: none;
     padding-left: 40px;
 
 }
 
-nav>ul {
+nav>div>ul {
     display: flex;
     justify-content: space-between;
 }
