@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav>ul>li a {
+    text-decoration: none;
+    padding-left: 40px;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+}
