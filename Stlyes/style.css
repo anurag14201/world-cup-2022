@@ -32,6 +32,7 @@ div>ul {
     justify-content: space-between;
     padding-top: 40px;
     padding-left: 8%;
+
 }
 
 .btn {
@@ -88,20 +89,52 @@ section {
 .all-players {
     display: grid;
     grid-template-columns: repeat(3, 4fr);
-    grid-row-gap: 30px;
-    grid-column-gap: 20px;
-    padding: 55px;
+    grid-row-gap: 40px;
+    /* grid-column-gap: 20px; */
+    padding-top: 70px;
+    padding-left: 30px;
+    background-color: white;
+    justify-items: center;
+    margin: 20px;
+
+
+}
+
+.player {
+    border: 2px solid gray;
+    width: 330px;
+    height: 470px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 28px;
+    text-align: left;
+    padding: 0px 5px 10px 15px;
+}
+
+.info {
+    flex-wrap: nowrap;
+
 }
 
 .player img {
     width: 300px;
     height: 256px;
+    padding: 10px;
 }
 
 /* highlight section 
 --------------- */
 .world-2018 {
     display: flex;
+    justify-content: center;
+    padding-top: 150px;
 }
 
 .highlight {
@@ -111,9 +144,16 @@ section {
 .im2018 img {
     width: 560px;
     height: 425px;
+    padding: 20px;
 }
 
-footer {}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding-top: 130px;
+}
 
 footer img {
     text-align: center;
@@ -121,11 +161,31 @@ footer img {
     height: 110px;
 }
 
-.footer-img {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    width: 20px;
-    height: 5px;
+.footer-img img {
+    width: 40px;
+    height: 22px;
+
+}
+
+footer p {
+    padding-top: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+span.copyright {
+    color: red;
+}
+
+/* Media Secticon */
+@media only screen (max-width:688px; ) {
+    .banner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .all-players {
+        grid-template-columns: repeat(1, 9fr);
+    }
 
 }
