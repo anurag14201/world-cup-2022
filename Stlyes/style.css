@@ -30,8 +30,7 @@ div>ul {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    padding-top: 40px;
-    padding-left: 8%;
+    padding: 40px 50px 0px 30px;
 
 }
 
