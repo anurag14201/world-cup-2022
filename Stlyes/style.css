@@ -178,10 +178,16 @@ span.copyright {
 }
 
 /* Media Secticon */
-@media only screen (max-width:688px; ) {
-    .banner {
+@media only screen and (max-width:688px) {
+    header {
         display: flex;
         flex-direction: column;
+    }
+
+    .world-2018 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
     }
 
     .all-players {
